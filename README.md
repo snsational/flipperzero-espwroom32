@@ -2,7 +2,7 @@
 
 An ESP-WROOM-32 Guide as an WiFi Module - an alternative to the official WiFi Devboard by Flipper Devices.
 
-<img src="https://github.com/snsational/flipperzero-espwroom32/blob/main/Assets/Pictures/FZ_ESP32_01.jpeg" title="Java" alt="Java" width="662" height="496"/>&nbsp;
+<img src="https://github.com/snsational/flipperzero-espwroom32/blob/main/Assets/Pictures/FZ_ESP32_01.jpeg" title="ESP32" alt="ESP32" width="662" height="496"/>&nbsp;
 
 
 ## Where to buy:
@@ -23,7 +23,8 @@ You can pick one of the following combination of items, depending on how pretty 
 #### I want a more sturdy finished product:
 - Female to anything jumper cables (4x needed) (You will strip the other end of the wire, so it does not matter what other end you get);
 - Micro-USB cable to whatever USB port your PC has;
-- Hot glue and hot glue gun (I used black glue sticks);
+- A set of 10 pin bar (You can buy a bigger bar and cut the excess pins).
+- Hot glue and hot glue gun (I used black glue sticks to go with the board);
 - Soldering iron and solder (and minimal experience with it - you won't be soldering directly to the board, but at least see a soldering tutorial to be safe);
 
 ## Flashing the board:
@@ -41,12 +42,16 @@ This is the layout for the connection:
 | (Pin17) GND      | (Pin18) GND      |
 | (Pin16) 3V3      | (Pin9)  3V       |
 
-<img src="https://github.com/snsational/flipperzero-espwroom32/blob/main/Assets/Pictures/Pinout.jpg" title="Java" alt="Java" width="500" height="450"/>&nbsp;
+<img src="https://github.com/snsational/flipperzero-espwroom32/blob/main/Assets/Pictures/Pinout.jpg" title="Pinout" alt="Pinout" width="500" height="450"/>&nbsp;
 
 Note that the TX connection in the ESP32 is connected to the RX connection in the FlipperZero and the same happens with the RX in the ESP32 and TX in the FlipperZero. This is intentional, as the TX pins transmit data and on the other device, there needs to be an RX pin to receive it.
 
 When the device receives power, the red LED should light up, and you can test a successful connection opening the Marauder app on the Flipper Zero, by going to 'Apps'>'GPIO'>'[ESP32]WiFi Marauder' and trying to scan some 'AP's.
 
-## A more finished product:
+## A more sturdier module as a final product:
+As I don't have a 3D printer and prefer to show the board on the GPIO Modules, I opted for the following solution:
 
+I used a Raspberry Pi Pico bar set that I already had lying around and cut it at 10 pins (you can use any pin bar that has at least 10 pins and cut the excess). I prefer to cut all 10 pins instead of using only what I need for the connection, as it gives a more sturdy structure to the module when attached to the Flipper Zero.
+
+<img src="https://github.com/snsational/flipperzero-espwroom32/blob/main/Assets/Pictures/Pin_bar.png" title="Pinbar" alt="Pinbar" width="150" height="120"/>&nbsp;
 
