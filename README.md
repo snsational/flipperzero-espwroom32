@@ -41,6 +41,8 @@ This is the layout for the connection:
 | (Pin17) GND      | (Pin18) GND      |
 | (Pin16) 3V3      | (Pin9)  3V       |
 
+<img src="https://github.com/snsational/flipperzero-espwroom32/blob/main/Assets/Pictures/Pinout.jpg" title="Java" alt="Java" width="500" height="450"/>&nbsp;
+
 Note that the TX connection in the ESP32 is connected to the RX connection in the FlipperZero and the same happens with the RX in the ESP32 and TX in the FlipperZero. This is intentional, as the TX pins transmit data and on the other device, there needs to be an RX pin to receive it.
 
 When the device receives power, the red LED should light up, and you can test a successful connection opening the Marauder app on the Flipper Zero, by going to 'Apps'>'GPIO'>'[ESP32]WiFi Marauder' and trying to scan some 'AP's.
