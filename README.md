@@ -36,8 +36,8 @@ This is the layout for the connection:
 
 | ESP-WROOM-32     | Flipper Zero     |
 | ---------------- | ---------------- |
-| (Pin27) TX0      | (Pin14) RX       |
-| (Pin28) RX0      | (Pin13) TX       |
+| (Pin28) TX0      | (Pin14) RX       |
+| (Pin27) RX0      | (Pin13) TX       |
 | (Pin17) GND      | (Pin18) GND      |
 | (Pin16) 3V3      | (Pin9)  3V       |
 
