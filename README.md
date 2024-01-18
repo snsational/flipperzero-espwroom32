@@ -38,7 +38,7 @@ This is the layout for the connection:
 | ---------------- | ---------------- |
 | (Pin27) TX0      | (Pin14) RX       |
 | (Pin28) RX0      | (Pin13) TX       |
-| (Pin17) GND      | (Pin13) GND      |
+| (Pin17) GND      | (Pin18) GND      |
 | (Pin16) 3V3      | (Pin9)  3V       |
 
 Note that the TX connection in the ESP32 is connected to the RX connection in the FlipperZero and the same happens with the RX in the ESP32 and TX in the FlipperZero. This is intentional, as the TX pins transmit data and on the other device, there needs to be an RX pin to receive it.
