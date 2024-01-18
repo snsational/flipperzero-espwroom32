@@ -55,3 +55,10 @@ I used a Raspberry Pi Pico bar set that I already had lying around and cut it at
 
 <img src="https://github.com/snsational/flipperzero-espwroom32/blob/main/Assets/Pictures/Pin_bar.png" title="Pinbar" alt="Pinbar" width="150" height="120"/>&nbsp;
 
+I used the same connection as <a href="https://github.com/snsational/flipperzero-espwroom32#wiring-with-just-the-jumper-connectors">above</a> to wire everything, except I had to strip the ends of the wires that were supposed to connect to the flipper, and solder it to the pin bar, respecting the same order. I cut the wires (depending on its position on the bar) with between 2 to 3cm to avoid having excess wire loops and to make it more compact.
+
+I then hot glued the soldered pin bar to the board to give it structure, and clipped the pins on the other side of the board that were not being used and here's the final product:
+
+<img src="https://github.com/snsational/flipperzero-espwroom32/blob/main/Assets/Pictures/FZ_ESP32_02.jpeg" title="ESP32" alt="ESP32" width="662" height="496"/>&nbsp;
+<img src="https://github.com/snsational/flipperzero-espwroom32/blob/main/Assets/Pictures/FZ_ESP32_03.jpeg" title="ESP32" alt="ESP32" width="662" height="496"/>&nbsp;
+
