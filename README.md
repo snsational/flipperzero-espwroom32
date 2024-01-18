@@ -2,6 +2,9 @@
 
 An ESP-WROOM-32 Guide as an WiFi Module - an alternative to the official WiFi Devboard by Flipper Devices.
 
+<img src="https://github.com/snsational/flipperzero-espwroom32/blob/main/Assets/Pictures/FZ_ESP32_01.jpeg" title="Java" alt="Java" width="662" height="496"/>&nbsp;
+
+
 ## Where to buy:
 <a href="https://www.amazon.com/Teyleten-Robot-ESP-WROOM-32-Development-Microcontroller/dp/B08246MCL5/?th=1" target="_blank">Amazon</a>&nbsp;
 <a href="https://mauser.pt/catalog/product_info.php?products_id=096-7620" target="_blank">MAUSER</a>
