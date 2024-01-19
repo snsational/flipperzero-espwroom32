@@ -40,7 +40,7 @@ This is the layout for the connection:
 | (Pin28) TX0      | (Pin14) RX       |
 | (Pin27) RX0      | (Pin13) TX       |
 | (Pin17) GND      | (Pin18) GND      |
-| (Pin16) 3V3      | (Pin9)  3V       |
+| (Pin16) 3V3      | (Pin9)  3V3      |
 
 <img src="https://github.com/snsational/flipperzero-espwroom32/blob/main/Assets/Pictures/Pinout.jpg" title="Pinout" alt="Pinout" width="500" height="450"/>&nbsp;
 
